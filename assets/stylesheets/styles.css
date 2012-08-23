@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Amatic SC';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/amaticsc/v3/DPPfSFKxRTXvae2bKDzp5D8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+
+body {
+	background: url(/assets/images/layout/greenerbroadbeans.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: black;
+}
+.content {
+/*
+	background: rgba(255, 255, 255, 0.8);
+*/
+}
+
+.site-title,
+.contact {
+	font-family: 'Amatic SC', cursive;
+	text-transform:lowercase;
+	font-weight:700;
+}
+
+.site-title {
+	font-size: 15em;
+	margin:0;
+	padding:0;
+	color:#dff593;
+}
+
+.description {
+	margin: 10px
+}
+
+.description p {
+	font-size: 1.3em;
+	color: #393939;
+}
+
+.contact,
+.contact:visited {
+	display: block;
+	color: #96B62A;
+	font-size: 2em;
+}
+
+.contact,
+.description {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #FFFFFF;
+	background: white;
+	border-radius: 3px;
+}
+
+.site-title {
+	text-shadow: 2px 2px 10px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=0);
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	.site-title {
+		text-align: center;
+		font-size: 5em;
+	}
+}
